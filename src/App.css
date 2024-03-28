@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.employees, .team {
+  margin-bottom: 20px;
+}
+
+.heading {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  min-width: 500px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+.table td button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.table td button.add {
+  background-color: #28a745;
+}
+
+.table td button.remove {
+  background-color: #dc3545;
+}
+
+.employees, .team {
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+.table td button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.table td button.add {
+  background-color: #28a745;
+}
+
+.table td button.remove {
+  background-color: #dc3545;
+}
+
+.disabled {
+  background-color: grey;
+}
